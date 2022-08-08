@@ -1,0 +1,28 @@
+1 VERSIONINFO
+ FILEVERSION    1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+{
+    BLOCK "StringFileInfo"
+    { 
+        BLOCK "040904b0"
+        {
+            VALUE "Comments",         "comment\0"
+            VALUE "CompanyName",      "Martel Instruments\0"
+            VALUE "FileDescription",  "Martel printer firmware programmer\0"
+            VALUE "FileVersion",      "1.0\0"
+            VALUE "InternalName",     "testTP\0"
+            VALUE "LegalCopyright",   "Martel Instruments\0"
+            VALUE "ProductName",      "test\0"
+            VALUE "ProductVersion",   "1.0\0"
+        } 
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0809, 1200
+    }
+}

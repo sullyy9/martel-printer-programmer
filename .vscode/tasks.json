@@ -1,0 +1,82 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "build"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
+            "label": "Build Debug Linux"
+        },
+        {
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "build",
+                "--target=x86_64-pc-windows-gnu"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
+            "label": "Build Debug Windows"
+        },
+        {
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "build",
+                "--release"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
+            "label": "Build Release Linux"
+        },
+        {
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "build",
+                "--target=x86_64-pc-windows-gnu",
+                "--release"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
+            "label": "Build Release Windows"
+        },
+        {
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "run",
+                "--release"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
+            "label": "Run"
+        },
+        {
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "test"
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build",
+            "label": "Test"
+        }
+    ]
+}
