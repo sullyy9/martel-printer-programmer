@@ -9,3 +9,7 @@ edition = "2021"
 embed-resource = "1.7"
 
 [dependencies]
+# futures = "0.3"
+# tokio = { version = "1.20.1", features = ["full"] }
+colored = "2.0.0"
+probe-rs = "0.13.0"

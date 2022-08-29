@@ -1,0 +1,6212 @@
+---
+name: STM32L4 Series
+manufacturer: ~
+variants:
+  - name: STM32L412C8Tx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134283264
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412C8Ux
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134283264
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412CBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412CBUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412K8Ix
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134283264
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412K8Tx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134283264
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412K8Ux
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134283264
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412KBIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412KBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412KBUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412R8Tx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134283264
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412RBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412T8Yx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134283264
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L412TBYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L422CBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L422CBUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L422KBIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L422KBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L422KBUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L422RBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L422TBYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536903680
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431CBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L431CBUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L431CBYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L431CCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431CCUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431CCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431KBUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L431KCUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431RBIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L431RBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L431RBYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L431RCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431RCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431RCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431VCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L431VCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L432KBUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L432KCUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L433CBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L433CBUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L433CBYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L433CCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L433CCUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L433CCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L433RBIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L433RBTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L433RBYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134348800
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_128
+      - stm32l4xx_sb_opt
+  - name: STM32L433RCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L433RCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L433RCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L433VCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L433VCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L442KCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L443CCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L443CCUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L443CCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L443RCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L443RCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L443RCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L443VCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L443VCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536920064
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L451CCUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L451CEUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L451RCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L451RCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L451RCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L451REIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L451RETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L451REYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L451VCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L451VCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L451VEIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L451VETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L452CCUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L452CEUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L452RCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L452RCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L452RCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L452REIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L452RETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L452REYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L452VCIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L452VCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_sb_opt
+  - name: STM32L452VEIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L452VETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L462CEUx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L462REIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L462RETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L462REYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L462VEIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L462VETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537001984
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_sb_opt
+  - name: STM32L471JEYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L471JGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L471QEIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L471QGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L471RCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_db_opt
+  - name: STM32L471RCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_db_opt
+  - name: STM32L471RETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L471RGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L471RGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L471VCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_db_opt
+  - name: STM32L471VETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L471VGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L471ZETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L471ZGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L475JEYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L475JGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L475QEIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L475QGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L475RCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_db_opt
+  - name: STM32L475RETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L475RGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L475VCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_db_opt
+  - name: STM32L475VETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L475VGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L475ZETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L475ZGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L476JEYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L476JGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L476MEYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L476MGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L476QEIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L476QGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L476RCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_db_opt
+  - name: STM32L476RETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L476RGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L476VCTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134479872
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_256
+      - stm32l4xx_db_opt
+  - name: STM32L476VETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L476VGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L476ZETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L476ZGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L485JCYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L486JGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L486QGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L486RGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L486VGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L486ZGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 536969216
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L496AGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L496QGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L496RGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L496VETx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L496VEYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 134742016
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_512
+      - stm32l4xx_db_opt
+  - name: STM32L496VGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L496VGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L496ZGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L496ZGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L4A6AGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L4A6QGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L4A6RGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L4A6VGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L4A6VGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L4A6ZGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L4A6ZGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537133056
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4xx_1024
+      - stm32l4xx_db_opt
+  - name: STM32L4R5AGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5AIIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5QGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5QIIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5VGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5VITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5ZGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5ZGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5ZITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R5ZIYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R7AIIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R7VITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R7ZITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9AGIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9AIIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4r9i_eval
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9VGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9VITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4r9i_eval
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9ZGJx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9ZGTx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9ZGYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 135266304
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9ZIJx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9ZITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4R9ZIYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S5AIIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S5QIIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S5VITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S5ZITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S5ZIYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S7AIIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S7VITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S7ZITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S9AIIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S9VIJx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S9ZITx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S9ZIYx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+  - name: STM32L4S9ZJIx
+    part: ~
+    cores:
+      - name: main
+        type: armv7em
+        core_access_options:
+          Arm:
+            ap: 0
+            psel: 0
+            debug_base: ~
+            cti_base: ~
+    memory_map:
+      - Ram:
+          name: ~
+          range:
+            start: 536870912
+            end: 537526272
+          is_boot_memory: false
+          cores:
+            - main
+      - Nvm:
+          name: ~
+          range:
+            start: 134217728
+            end: 136314880
+          is_boot_memory: true
+          cores:
+            - main
+    flash_algorithms:
+      - stm32l4rx_2048
+      - stm32l4rx_2048_dual
+      - stm32l4rx_sb_opt
+      - stm32l4rx_db_opt
+flash_algorithms:
+  - name: stm32l4xx_256
+    description: STM32L4xx 256 KB Flash
+    default: true
+    instructions: v/NPj3BHWEgAaFhJAAUADUAYANABIHBHVUgAaoACwA9wRwC1Akb/9+7/ASgI0f/38/8BKATRT0iCQgHTASAAvQAgAL0AtQJG//fd/wEoAtDQAoANAL1ISdAKCECRA/nV/zABMAC9QkhESYFgREmBYAAhAWBDSQFhAGrAAwbUQ0hBSQFgBiFBYEFJgWAAIHBHASA3ScAHSGEAIHBHASBwRzNIOEkBYcETQWFBaQEiEgQRQ0FhN0k1SgDgEWADadsD+9QAIUFhCEZwRxC1BEb/96j/A0YgRv/3tf8lSSlMDGHCANgCkhwCQ0phSGkBIhIEEENIYb/zT48mSCRKAOAQYAtp2wP71AAgSGEIaSBAAdAMYQEgEL3wtckdFU3JCBlPyQAvYQAja2EaTBjgASNrYRNoA2BTaENgv/NPjxNLAOAcYC5p9gP71AAja2EraTtCAtAvYQEg8L0IMAg5CDIAKeTRACDwvQAAACAE4Mv7//8AIAJAAAACCL8DAAAjAWdFq4nvzfrDAABVVQAAADAAQP8PAACqqgAAAAAAAA==
+    load_address: ~
+    pc_init: 103
+    pc_uninit: 145
+    pc_program_page: 279
+    pc_erase_sector: 203
+    pc_erase_all: 161
+    data_section_offset: 408
+    flash_properties:
+      address_range:
+        start: 134217728
+        end: 134479872
+      page_size: 1024
+      erased_byte_value: 255
+      program_page_timeout: 400
+      erase_sector_timeout: 400
+      sectors:
+        - size: 2048
+          address: 0
+    cores: []
+  - name: stm32l4xx_sb_opt
+    description: STM32L4xx single bank Flash Options
+    default: false
+    instructions: v/NPj3BHUkhQSYFgUUmBYFFJwWBRScFgACEBYFBJAWEAasADBtRQSE5JAWAGIUFgTkmBYAAgcEcBIUVIyQdBYUEEQWEAIHBHASBwRxC1QEhDTARhRkkBYkkVQWIJBIFiREnBYgFjASFJBEFhv/NPj0FJPUoA4BFgA2nbA/vUAWkhQgTQAWkhQwFhASAQvQAgEL0AIHBH8LWUiBVok2jRaCtIEmkuTwdhNE41QAVipLJEYjNMI0CDYjJLGUDBYhpAAmMBIUkEQWG/80+PKkkmSgDgEWADadsD+9QBaTlCBNABaTlDAWEBIPC9ACDwvfC1jEaUaNNoYMoVSZJoD2ofSQ9ADUCvQgbREU1parayibKxQgHQQBzwvalqGU4xQDRAoUIB0IAc8L3sahZJDEALQJxCAdDAHPC9K2sKQAtAk0IB0AAd8L1gRPC9AAAjAWdFACACQKuJ7807KhkIf25dTPrDAABVVQAAADAAQP8PAACq+O////8A/6qqAAD/d/8P//8AgP8A/wAAAAAA
+    load_address: ~
+    pc_init: 7
+    pc_uninit: 57
+    pc_program_page: 151
+    pc_erase_sector: 147
+    pc_erase_all: 77
+    data_section_offset: 392
+    flash_properties:
+      address_range:
+        start: 536836096
+        end: 536836116
+      page_size: 20
+      erased_byte_value: 255
+      program_page_timeout: 3000
+      erase_sector_timeout: 3000
+      sectors:
+        - size: 20
+          address: 0
+    cores: []
+  - name: stm32l4xx_128
+    description: STM32L4xx 128 KB Flash
+    default: true
+    instructions: v/NPj3BHWEgAaFhJAAUADUAYANABIHBHVUgAaoACwA9wRwC1Akb/9+7/ASgI0f/38/8BKATRT0iCQgHTASAAvQAgAL0AtQJG//fd/wEoAtDQAoANAL1ISdAKCEDRA/nV/zABMAC9QkhESYFgREmBYAAhAWBDSQFhAGrAAwbUQ0hBSQFgBiFBYEFJgWAAIHBHASA3ScAHSGEAIHBHASBwRzNIOEkBYcETQWFBaQEiEgQRQ0FhN0k1SgDgEWADadsD+9QAIUFhCEZwRxC1BEb/96j/A0YgRv/3tf8lSSlMDGHCANgCkhwCQ0phSGkBIhIEEENIYb/zT48mSCRKAOAQYAtp2wP71AAgSGEIaSBAAdAMYQEgEL3wtckdFU3JCBlPyQAvYQAja2EaTBjgASNrYRNoA2BTaENgv/NPjxNLAOAcYC5p9gP71AAja2EraTtCAtAvYQEg8L0IMAg5CDIAKeTRACDwvQAAACAE4Mv7//8AIAJAAAABCN8DAAAjAWdFq4nvzfrDAABVVQAAADAAQP8PAACqqgAAAAAAAA==
+    load_address: ~
+    pc_init: 103
+    pc_uninit: 145
+    pc_program_page: 279
+    pc_erase_sector: 203
+    pc_erase_all: 161
+    data_section_offset: 408
+    flash_properties:
+      address_range:
+        start: 134217728
+        end: 134348800
+      page_size: 1024
+      erased_byte_value: 255
+      program_page_timeout: 400
+      erase_sector_timeout: 400
+      sectors:
+        - size: 2048
+          address: 0
+    cores: []
+  - name: stm32l4xx_512
+    description: STM32L4xx 512 KB Flash
+    default: true
+    instructions: v/NPj3BHWEgAaFhJAAUADUAYANABIHBHVUgAaoACwA9wRwC1Akb/9+7/ASgI0f/38/8BKATRT0iCQgHTASAAvQAgAL0AtQJG//fd/wEoAtDQAoANAL1ISdAKCEBRA/nV/zABMAC9QkhESYFgREmBYAAhAWBDSQFhAGrAAwbUQ0hBSQFgBiFBYEFJgWAAIHBHASA3ScAHSGEAIHBHASBwRzNIOEkBYcETQWFBaQEiEgQRQ0FhN0k1SgDgEWADadsD+9QAIUFhCEZwRxC1BEb/96j/A0YgRv/3tf8lSSlMDGHCANgCkhwCQ0phSGkBIhIEEENIYb/zT48mSCRKAOAQYAtp2wP71AAgSGEIaSBAAdAMYQEgEL3wtckdFU3JCBlPyQAvYQAja2EaTBjgASNrYRNoA2BTaENgv/NPjxNLAOAcYC5p9gP71AAja2EraTtCAtAvYQEg8L0IMAg5CDIAKeTRACDwvQAAACAE4Mv7//8AIAJAAAAECH8DAAAjAWdFq4nvzfrDAABVVQAAADAAQP8PAACqqgAAAAAAAA==
+    load_address: ~
+    pc_init: 103
+    pc_uninit: 145
+    pc_program_page: 279
+    pc_erase_sector: 203
+    pc_erase_all: 161
+    data_section_offset: 408
+    flash_properties:
+      address_range:
+        start: 134217728
+        end: 134742016
+      page_size: 1024
+      erased_byte_value: 255
+      program_page_timeout: 400
+      erase_sector_timeout: 400
+      sectors:
+        - size: 2048
+          address: 0
+    cores: []
+  - name: stm32l4xx_db_opt
+    description: STM32L4xx dual bank Flash Options
+    default: false
+    instructions: v/NPj3BHdkh0SYFgdUmBYHVJwWB1ScFgACEBYHRJAWEAasADBtR0SHJJAWAGIUFgckmBYAAgcEcBIWlIyQdBYUEEQWEAIHBHASBwRzC1ZEhnTARhakkBYksVQ2IdBIViaEnBYgFjXkpAMlNglWDRYBFhASFJBEFhv/NPj2JJXkoA4BFgA2nbA/vUAWkhQgTQAWkhQwFhASAwvQAgML0AIHBH+LWXiBZovEYXaZVovkaXitRoAJeTadFpSUgSakxPB2FSTz5ABmJnRr6yRmJQTjVAhWJPTSxAxGJ3Ri9AB2MAnz9Mv7JANGdgM0CjYClA4WAqQCJhASFJBEFhv/NPj0FJPUoA4BFgA2nbA/vUAmk3SQpCBNACaQpDAmEBIPi9ACD4vfe1UWiCsI5GFWiUaNFoAZERaSpOjEZRaQCRk2nRaRJqN2oxTjdANUCvQgfRI099anZGrbK2srVCAtBAHAWw8L29aipONUA0QKVCAdCAHPXn/monTAGdJkAlQK5CAdDAHOznPmtlRiZAJUCuQgHQAB3k5xJNQDVuaLeyAJ62srdCAdBAHdrnrmgYTz5AO0CeQgHQgB3S5+toIUAjQItCAdDAHcvnKWkiQCFAkUIB0AgwxOcDmUAYwecjAWdFACACQKuJ7807KhkIf25dTPrDAABVVQAAADAAQP8PAACq+O////8A/6qqAAD/d/8P//8AgP8A/wAAAAAA
+    load_address: ~
+    pc_init: 7
+    pc_uninit: 57
+    pc_program_page: 163
+    pc_erase_sector: 159
+    pc_erase_all: 77
+    data_section_offset: 536
+    flash_properties:
+      address_range:
+        start: 536836096
+        end: 536836132
+      page_size: 36
+      erased_byte_value: 255
+      program_page_timeout: 3000
+      erase_sector_timeout: 3000
+      sectors:
+        - size: 36
+          address: 0
+    cores: []
+  - name: stm32l4xx_1024
+    description: STM32L4xx 1MB Flash
+    default: true
+    instructions: v/NPj3BHWEgAaFhJAAUADUAYANABIHBHVUgAaoACwA9wRwC1Akb/9+7/ASgI0f/38/8BKATRT0iCQgHTASAAvQAgAL0AtQJG//fd/wEoAtDQAoANAL1ISdAKCEARA/nV/zABMAC9QkhESYFgREmBYAAhAWBDSQFhAGrAAwbUQ0hBSQFgBiFBYEFJgWAAIHBHASA3ScAHSGEAIHBHASBwRzNIOEkBYcETQWFBaQEiEgQRQ0FhN0k1SgDgEWADadsD+9QAIUFhCEZwRxC1BEb/96j/A0YgRv/3tf8lSSlMDGHCANgCkhwCQ0phSGkBIhIEEENIYb/zT48mSCRKAOAQYAtp2wP71AAgSGEIaSBAAdAMYQEgEL3wtckdFU3JCBlPyQAvYQAja2EaTBjgASNrYRNoA2BTaENgv/NPjxNLAOAcYC5p9gP71AAja2EraTtCAtAvYQEg8L0IMAg5CDIAKeTRACDwvQAAACAE4Mv7//8AIAJAAAAICP8CAAAjAWdFq4nvzfrDAABVVQAAADAAQP8PAACqqgAAAAAAAA==
+    load_address: ~
+    pc_init: 103
+    pc_uninit: 145
+    pc_program_page: 279
+    pc_erase_sector: 203
+    pc_erase_all: 161
+    data_section_offset: 408
+    flash_properties:
+      address_range:
+        start: 134217728
+        end: 135266304
+      page_size: 1024
+      erased_byte_value: 255
+      program_page_timeout: 400
+      erase_sector_timeout: 400
+      sectors:
+        - size: 2048
+          address: 0
+    cores: []
+  - name: stm32l4rx_2048
+    description: STM32L4Rx 2MB Flash
+    default: true
+    instructions: Y0liSIhgY0iIYGNIA2hjSkpEk2ADaEP0AHMDYANoI/SAYwNgCGpAAgTVT/ABYBBgASBQYAhqwAMI1FlIRfJVUQFgBiFBYED2/3GBYAAgcEdPSEFpQfAAQUFhACBwRwEgcEdK9qohTkpJSADgEWADadsD+9RM8vszA2FI8gQDQ2FDaUP0gDNDYQDgEWADadsD+9QCaUTy+jEKQgLQAWEBIHBHQWkh8AQBQWFBaSH0AEFBYQAgcEcwtcDzRzRK9qohN0ozSADgEWADadsD+9RM8vszA2FDaSP0/2NDYUNpAiUF68QEI0NDYUNpQ/SAM0NhAOARYANp2wP71AJpRPL6MQpCAtABYQEgML1BaSH0gDFBYUFpIfACAUFhACAwvXC1yR0h8AcBSvaqIx1MGE0A4CNgLmn2A/vUTPL7Ni5hbmlG8AEGbmET4BZoBmBWaEZgAOAjYC5p9gP71C5p9gcE0ETy+jAoYQEgcL0IMAg5CDIAKenRaGkg8AEAaGEHSAZJSESAaAhgACBwvQAAIwFnRQAgAkCrie/NAHAAQAQAAAAAMABAAAAAAAAAIAgAAAAAAAAAAA==
+    load_address: ~
+    pc_init: 1
+    pc_uninit: 81
+    pc_program_page: 287
+    pc_erase_sector: 183
+    pc_erase_all: 99
+    data_section_offset: 420
+    flash_properties:
+      address_range:
+        start: 134217728
+        end: 136314880
+      page_size: 1024
+      erased_byte_value: 255
+      program_page_timeout: 400
+      erase_sector_timeout: 400
+      sectors:
+        - size: 8192
+          address: 0
+    cores: []
+  - name: stm32l4rx_sb_opt
+    description: STM32L4Rx Flash Options Single Bank
+    default: false
+    instructions: v/NPj3BHU0hRSYFgUkmBYFJJwWBSScFgACEBYFFJAWEAasADBtRRSE9JAWAGIUFgT0mBYAAgcEcBIUZIyQdBYUEEQWEAIHBHASBwRxC1QUhETARhR0kBYkkVQWJGSYFiRknBYgFjASFJBEFhv/NPj0NJPkoA4BFgA2nbA/vUAWkhQgTQAWkhQwFhASAQvQAgEL0AIHBH8LUVaFRok2jRaCxIEmkvTwdhNk41QAVi5APkC0RiMEzkQyNAg2IySxlAwWIaQAJjASFJBEFhv/NPjytJJkoA4BFgA2nbA/vUAWk5QgTQAWk5QwFhASDwvQAg8L3wtYxGlGjTaGDKFUmSaA9qIEkPQA1Ar0IG0RFNaWq2somysUIB0EAc8L2pahZO9kMxQDRAoUIB0IAc8L3sahVJDEALQJxCAdDAHPC9K2sKQAtAk0IB0AAd8L1gRPC9IwFnRQAgAkCrie/NOyoZCH9uXUz6wwAAVVUAAAAwAED/DwAAqvjv/wAA/n///wD/qqoAAP93/w//AP8AAAAAAA==
+    load_address: ~
+    pc_init: 7
+    pc_uninit: 57
+    pc_program_page: 151
+    pc_erase_sector: 147
+    pc_erase_all: 77
+    data_section_offset: 396
+    flash_properties:
+      address_range:
+        start: 535822336
+        end: 535822356
+      page_size: 20
+      erased_byte_value: 255
+      program_page_timeout: 3000
+      erase_sector_timeout: 3000
+      sectors:
+        - size: 20
+          address: 0
+    cores: []
+  - name: stm32l4rx_db_opt
+    description: STM32L4Rx Flash Options Dual Bank
+    default: false
+    instructions: v/NPj3BHekh4SYFgeUmBYHlJwWB5ScFgACEBYHhJAWEAasADBtR4SHZJAWAGIUFgdkmBYAAgcEcBIW1IyQdBYUEEQWEAIHBHASBwRxC1aEhrTARhbkkBYksVQ2JtSYFibUnBYgFjYkpAMlNgSwSTYNFgEWFZQkFhv/NPj2dJYkoA4BFgA2nbA/vUAWkhQgTQAWkhQwFhASAQvQAgEL0AIHBH+LWgytZovEaXaBRovkYXaVNoAJdRaU1IkmlQTwdhV089QAViZ0b9A+0LRWJRTe1DLECEYlNMI0DDYndGJ0AHY/UDQkvtC0AzXWAAn/0D7QudYCFA2WAiQBphASFJBEFhv/NPj0VJP0oA4BFgA2nbA/vUAWk6ShFCBNABaRFDAWEBIPi9ACD4vfe1UWiCsIxGkWgVaI5G1GgTaVFpAZGRaQCRKk7RaRJqN2o0TjdANUCvQgfRJk99amZGrbK2srVCAtBAHAWw8L0hTa5qKU13Ru1DLkAvQL5CAdCAHPLnG0/9aidONUA0QKVCAdDAHOnnPGszQDRAnEIB0AAd4ucTTEA0Y2idsgGbm7KdQgHQQB3Y56No3QMAm+0L2wPbC51CAdCAHc7n42gxQDNAi0IB0MAdx+chaTJAMUCRQgHQCDDA5wOZQBi95wAAIwFnRQAgAkCrie/NOyoZCH9uXUz6wwAAVVUAAAAwAED/DwAAqvjv/wAA/n///wD/qqoAAP93/w//AP8AAAAAAA==
+    load_address: ~
+    pc_init: 7
+    pc_uninit: 57
+    pc_program_page: 163
+    pc_erase_sector: 159
+    pc_erase_all: 77
+    data_section_offset: 552
+    flash_properties:
+      address_range:
+        start: 535822336
+        end: 535822372
+      page_size: 36
+      erased_byte_value: 255
+      program_page_timeout: 3000
+      erase_sector_timeout: 3000
+      sectors:
+        - size: 36
+          address: 0
+    cores: []
+  - name: stm32l4rx_2048_dual
+    description: STM32L4Rx 2MB Flash Dual
+    default: false
+    instructions: YElfSIhgYEiIYGBIA2hgSkpEk2ADaEP0AHMDYANoI/SAYwNgCGpAAgTVT/ABYBBgASBQYAhqwAMI1FZIRfJVUQFgBiFBYED2/3GBYAAgcEdMSEFpQfAAQUFhACBwRwEgcEdK9qohS0pGSADgEWADadsD+9RM8vszA2FI8gQDQ2FDaUP0gDNDYQDgEWADadsD+9QCaUTy+jEKQgLQAWEBIHBHQWkh8AQBQWFBaSH0AEFBYQAgcEcwtcDzBzVK9qoiNEswSQDgGmAMaeQD+9RM8vs0DGEuTExEJGigQgPTSGlA9ABgSGFIaSD0/2BIYUhpAiQE68UEIENIYUhpQPSAMEhhAOAaYAhpwAP71AppRPL6MAJCAtAIYQEgML1IaSD0gDBIYUhpIPACAEhhACAwvRC1yR0TSyHwBwEcaeQD/NRcaUTwAQRcYRHgFGgEYFRoRGAcaeQD/NQcaeQHBNBE8vowGGEBIBC9CDAIOQgyACnr0VhpIPABAFhhACAQvQAAIwFnRQAgAkCrie/NAHAAQAQAAAAAMABAAAAAAAAAEAgAAAAAAAAAAA==
+    load_address: ~
+    pc_init: 1
+    pc_uninit: 81
+    pc_program_page: 305
+    pc_erase_sector: 183
+    pc_erase_all: 99
+    data_section_offset: 408
+    flash_properties:
+      address_range:
+        start: 134217728
+        end: 136314880
+      page_size: 1024
+      erased_byte_value: 255
+      program_page_timeout: 400
+      erase_sector_timeout: 400
+      sectors:
+        - size: 4096
+          address: 0
+    cores: []
+  - name: stm32l4r9i_eval
+    description: MX25LM51245G_STM32L4R9I_EVAL
+    default: false
+    instructions: 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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAkAAAAAQAAAEA/wAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    load_address: ~
+    pc_init: 21877
+    pc_uninit: 25821
+    pc_program_page: 24823
+    pc_erase_sector: 2423
+    pc_erase_all: 2385
+    data_section_offset: 26268
+    flash_properties:
+      address_range:
+        start: 2415919104
+        end: 2483027968
+      page_size: 256
+      erased_byte_value: 255
+      program_page_timeout: 10000
+      erase_sector_timeout: 10000
+      sectors:
+        - size: 65536
+          address: 0
+    cores: []
